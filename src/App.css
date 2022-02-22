@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fundo {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: blue;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box1 {
+  width: 40%;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 30%;
+  position: relative;
+  margin-top: 22vh;
+  display: flex;
+  background-color: rgb(54, 179, 179);
+  border-radius: 1vw;
+  border-width: thick;
 }
-
-.App-link {
-  color: #61dafb;
+.title {
+  position: absolute;
+  top: 6%;
+  font-size: 1.5vw;
+  color: rgb(12, 34, 26);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box2 {
+  position: absolute;
+  top: 30%;
+  height: 11vh;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+.box2 input {
+  width: 50%;
+  font-size: 2.5vw;
+  text-align: center;
+  background-color: aquamarine;
+  border-radius: 0.5vw;
+}
+.box2 p {
+  font-size: 3vw;
+  align-items: center;
+}
+.box3 {
+  position: absolute;
+  top: 60%;
+  width: 70%;
+  height: 7vh;
+  display: flex;
+  justify-content: space-around;
+}
+.box3 button {
+  width: 3vw;
+  font-weight: bold;
+  font-size: 1.5vw;
+  background-color: rgb(82, 165, 165);
+  border-radius: 0.5vw;
+}
+.final {
+  position: absolute;
+  top: 80%;
+  font-size: 1.5vw;
 }
