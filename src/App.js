@@ -6,7 +6,8 @@ class App extends Component{
 state = {
   n1: '',
   n2: '',
-  result: ''
+  result: '',
+  operador: ''  
 }
 
 handleChange = (event) => {
